@@ -8,7 +8,7 @@ the second is modbusdrv.cpp, which is responsible for periodically constructing 
 
 The functions included in the library are as follows：
 
-1、AutoGroup_BlkDev.cpp
+1、AutoGroup_BlkDev.cpp  
 //解析连续Tag地址，在modbusdrv.cpp中实现  
 extern int AnalyzeTagAddr_Continuous(char *szAddressInDevice, int nLenBits, char *szBlockName, int nBlockNameLen, int *pnStartBits, int *pnEndBits);  
 CAutoGroupBlkDev::CAutoGroupBlkDev(vector<PKTAG *> &vecTags) //构造函数  
